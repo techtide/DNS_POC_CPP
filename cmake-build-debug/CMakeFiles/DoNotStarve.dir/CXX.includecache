@@ -7,8 +7,6 @@
 #IncludeRegexTransform: 
 
 /Users/greenie/CLionProjects/DoNotStarve/Game.cpp
-unordered_map
--
 vector
 -
 getopt.h
