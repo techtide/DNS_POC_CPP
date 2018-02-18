@@ -39,7 +39,7 @@ void runGameLoop() {
     displayStatistics();
     displayMealOptions();
     int option = askUserInput("What meal option would you like to pick, given your current circumstances?");
-    if(option > foodList.size()) {
+    if(option >= foodList.size()) {
         std::cout << "Unfortunately, no such option is present at the moment." << std::endl;
     } else {
         handleMealChoice(option);
@@ -58,9 +58,9 @@ void runGameLoop() {
 }
 
 void handleMealChoice(int option) {
-    Food foodItem = foodList.at(option);
+    Food *foodItem = &(foodList.at(option));
     dollars oldMoneyLeft = moneyLeft;
-    moneyLeft = (moneyLeft - foodItem.price) > 0 ? moneyLeft-foodItem.price : moneyLeft;
+    moneyLeft = (moneyLeft - foodItem->price) > 0 ? moneyLeft-foodItem->price : moneyLeft;
     if(moneyLeft == oldMoneyLeft) {
         std::cout << "Sorry, at the moment, you cannot afford to buy this item." << std::endl;
     } else {
@@ -72,7 +72,7 @@ void handleMealChoice(int option) {
 void displayMealOptions() {
     for(int i = 0; i < foodList.size(); i ++) {
         std::cout << i << ": " << foodList.at(i).name << "  "
-                  << foodList.at(i).calories <<  "  " <<
+                  << foodList.at(i).calories << "kcal" <<  "  " <<
                   "$" << foodList.at(i).price << std::endl;
     }
 }
