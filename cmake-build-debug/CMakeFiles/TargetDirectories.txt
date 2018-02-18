@@ -1,0 +1,3 @@
+/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug/CMakeFiles/DoNotStarve.dir

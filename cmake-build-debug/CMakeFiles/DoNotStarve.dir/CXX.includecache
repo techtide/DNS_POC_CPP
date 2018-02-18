@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/greenie/CLionProjects/DoNotStarve/Game.cpp
+unordered_map
+-
+vector
+-
+getopt.h
+-
+UserInput.h
+/Users/greenie/CLionProjects/DoNotStarve/UserInput.h
+Game.h
+/Users/greenie/CLionProjects/DoNotStarve/Game.h
+
+/Users/greenie/CLionProjects/DoNotStarve/Game.h
+
+/Users/greenie/CLionProjects/DoNotStarve/UserInput.h
+string
+-
+iostream
+-
+
