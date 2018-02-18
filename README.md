@@ -10,9 +10,9 @@ Statistics: https://www.wfp.org/hunger/stats
 It is a hard concept to grasp - food and wealth not being distributed equally, but it is still a problem that many people face. Hence, the purpose of this game is to educate us on how lucky most of us are (especially if we are viewing this right now), to even have enough food to live and be active. Not only is it to educate us of the unfortunate lives many lead, but it also to educate even lucky people, who have trouble controlling what they eat within a budget.
 
 ## Tools
-I used Jetbrains IntelliJ IDEA Ultimate (build 2016.2.4) for this project. Hence, any integrated development environment will work for a pull request.
+I used CLion for this project, but any IDE or editor should do.
 
 ## Playing
-Assuming that you have a Java IDE or a command prompt, you can just test it for yourself.
+Assuming that you have a C++ editor or a command prompt, you can just test it for yourself.
 
-I hope you enjoy this quick P.O.C game, that hopefully turns out okay!
+I hope you enjoy this quick P.O.C game, and that it hopefully turns out okay!
