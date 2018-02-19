@@ -3,7 +3,8 @@
 //
 
 #include <vector>
-#include <getopt.h>
+#include <fstream>
+#include <sstream>
 #include "UserInput.h"
 #include "Game.h"
 
@@ -30,11 +31,7 @@ int main() {
 }
 
 void formMealOptions() {
-    Food food;
-    food.name = "Diet Coke";
-    food.calories = 100;
-    food.price = 1.00;
-    foodList.insert(foodList.begin(), food);
+    
 }
 
 void runGameLoop() {
