@@ -23,7 +23,9 @@ void handleMealChoice(int option);
 
 int main() {
     formMealOptions();
-    runGameLoop();
+    while (dayNumber <= MAX_DAYS_CHALLENGE) {
+        runGameLoop();
+    }
     return 0;
 }
 
@@ -44,28 +46,25 @@ void runGameLoop() {
     } else {
         handleMealChoice(option);
     }
-
-    if(mealNumber > 3 && dayNumber < maxDaysForChallenge) {
-        dayNumber += 1;
-        mealNumber = 0;
-        runGameLoop();
-    } else if(calories > 0 && dayNumber < maxDaysForChallenge) {
-        runGameLoop();
-    } else {
-        std::cout << "You have passed the challenge, and have survived for eight days with " << calories << " kcal and $" << moneyLeft <<
-                  "left over." << std::endl;
-    }
 }
 
 void handleMealChoice(int option) {
     Food *foodItem = &(foodList.at(option));
     dollars oldMoneyLeft = moneyLeft;
-    moneyLeft = (moneyLeft - foodItem->price) > 0 ? moneyLeft-foodItem->price : moneyLeft;
-    if(moneyLeft == oldMoneyLeft) {
-        std::cout << "Sorry, at the moment, you cannot afford to buy this item." << std::endl;
+    moneyLeft = (moneyLeft - foodItem->price) > 0 ? moneyLeft - foodItem->price : moneyLeft;
+
+    if(mealNumber > MAX_MEALS_DAY) {
+        mealNumber=1;
+        dayNumber+=1;
     } else {
-        mealNumber += 1;
-        runGameLoop();
+        mealNumber+=1;
+    }
+
+    if (moneyLeft == oldMoneyLeft) {
+        std::cout << "Sorry, at the moment, you cannot afford to buy this item." << std::endl;
+    } else if (dayNumber > MAX_DAYS_CHALLENGE){
+        std::cout << "You have passed the challenge, and have survived for " << MAX_MEALS_DAY << " days with " << calories
+                  << " kcal and $" << moneyLeft << "left over." << std::endl;
     }
 }
 

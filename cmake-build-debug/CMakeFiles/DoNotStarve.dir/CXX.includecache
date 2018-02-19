@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/greenie/CLionProjects/DoNotStarve/Game.cpp
+/home/greenie/Documents/CLionProjects/DNS_POC_CPP/Game.cpp
 vector
 -
 getopt.h
 -
 UserInput.h
-/Users/greenie/CLionProjects/DoNotStarve/UserInput.h
+/home/greenie/Documents/CLionProjects/DNS_POC_CPP/UserInput.h
 Game.h
-/Users/greenie/CLionProjects/DoNotStarve/Game.h
+/home/greenie/Documents/CLionProjects/DNS_POC_CPP/Game.h
 
-/Users/greenie/CLionProjects/DoNotStarve/Game.h
+/home/greenie/Documents/CLionProjects/DNS_POC_CPP/Game.h
 
-/Users/greenie/CLionProjects/DoNotStarve/UserInput.h
+/home/greenie/Documents/CLionProjects/DNS_POC_CPP/UserInput.h
 string
 -
 iostream

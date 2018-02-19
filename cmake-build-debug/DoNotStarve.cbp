@@ -8,90 +8,90 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug"/>
+				<Option working_dir="/home/greenie/Documents/CLionProjects/DNS_POC_CPP/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/greenie/Documents/CLionProjects/DNS_POC_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/greenie/Documents/CLionProjects/DNS_POC_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/greenie/Documents/CLionProjects/DNS_POC_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/greenie/Documents/CLionProjects/DNS_POC_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug"/>
+				<Option working_dir="/home/greenie/Documents/CLionProjects/DNS_POC_CPP/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/greenie/Documents/CLionProjects/DNS_POC_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/greenie/Documents/CLionProjects/DNS_POC_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/greenie/Documents/CLionProjects/DNS_POC_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/greenie/Documents/CLionProjects/DNS_POC_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug"/>
+				<Option working_dir="/home/greenie/Documents/CLionProjects/DNS_POC_CPP/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/greenie/Documents/CLionProjects/DNS_POC_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/greenie/Documents/CLionProjects/DNS_POC_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/greenie/Documents/CLionProjects/DNS_POC_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/greenie/Documents/CLionProjects/DNS_POC_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DoNotStarve">
-				<Option output="/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug/DoNotStarve" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug"/>
+				<Option output="/home/greenie/Documents/CLionProjects/DNS_POC_CPP/cmake-build-debug/DoNotStarve" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/greenie/Documents/CLionProjects/DNS_POC_CPP/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../include/c++/7.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/include-fixed"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug/Makefile&quot;  VERBOSE=1 DoNotStarve"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/greenie/Documents/CLionProjects/DNS_POC_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 DoNotStarve"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/greenie/Documents/CLionProjects/DNS_POC_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/greenie/Documents/CLionProjects/DNS_POC_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/greenie/Documents/CLionProjects/DNS_POC_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DoNotStarve/fast">
-				<Option output="/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug/DoNotStarve" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug"/>
+				<Option output="/home/greenie/Documents/CLionProjects/DNS_POC_CPP/cmake-build-debug/DoNotStarve" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/greenie/Documents/CLionProjects/DNS_POC_CPP/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../include/c++/7.3.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.3.0/include-fixed"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug/Makefile&quot;  VERBOSE=1 DoNotStarve/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/greenie/CLionProjects/DoNotStarve/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/greenie/Documents/CLionProjects/DNS_POC_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 DoNotStarve/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/greenie/Documents/CLionProjects/DNS_POC_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/greenie/Documents/CLionProjects/DNS_POC_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/greenie/Documents/CLionProjects/DNS_POC_CPP/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/greenie/CLionProjects/DoNotStarve/Game.cpp">
+		<Unit filename="/home/greenie/Documents/CLionProjects/DNS_POC_CPP/Game.cpp">
 			<Option target="DoNotStarve"/>
 		</Unit>
-		<Unit filename="/Users/greenie/CLionProjects/DoNotStarve/Game.h">
+		<Unit filename="/home/greenie/Documents/CLionProjects/DNS_POC_CPP/Game.h">
 			<Option target="DoNotStarve"/>
 		</Unit>
-		<Unit filename="/Users/greenie/CLionProjects/DoNotStarve/UserInput.h">
+		<Unit filename="/home/greenie/Documents/CLionProjects/DNS_POC_CPP/UserInput.h">
 			<Option target="DoNotStarve"/>
 		</Unit>
-		<Unit filename="/Users/greenie/CLionProjects/DoNotStarve/CMakeLists.txt">
+		<Unit filename="/home/greenie/Documents/CLionProjects/DNS_POC_CPP/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
