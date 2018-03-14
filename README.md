@@ -1,5 +1,5 @@
 # Don't Starve
-
+[![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
 This is a proof of concept text-based game, demonstrating some mechanics. To be completed in the course of 3 days.
 
 ## People do. All the time.
